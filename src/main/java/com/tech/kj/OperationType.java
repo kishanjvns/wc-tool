@@ -5,7 +5,9 @@ import java.util.stream.Stream;
 
 public enum OperationType {
     c("-c"),
-    d("-d");
+    l("-l"),
+    w("-w"),
+    m("-m");
     private String operationName;
     OperationType(String operationName){
         this.operationName = operationName;
